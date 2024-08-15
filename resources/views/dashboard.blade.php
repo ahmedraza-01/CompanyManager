@@ -73,7 +73,7 @@
                 $employees = $company ? $company->employees : collect();
             @endphp
                 <div class="card-body table-responsive p-0">
-                  <h1><b>{{ $company->name }}</b></h1>
+                  <h1><b></b></h1>
                   <table class="table table-hover text-nowrap">
                       <thead>
                           <tr>

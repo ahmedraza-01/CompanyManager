@@ -37,7 +37,7 @@ class AuthenticatedSessionController extends Controller
         return redirect()->intended(route('companies.employees.index', ['company' => $user->company_id], absolute: false));
     } else {
         // Default redirection for other roles if needed
-        return redirect()->intended(route('home', absolute: false));
+        return redirect()->intended(route('dashboard', absolute: false));
     }
 }
 

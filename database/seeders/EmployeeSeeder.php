@@ -11,7 +11,7 @@ class EmployeeSeeder extends Seeder
 {
     public function run()
     {
-        $companyIds = [1, 2, 5];
+        $companyIds = [1, 2, 3];
 
         foreach ($companyIds as $companyId) {
             // Create 5 employees for each specified company
